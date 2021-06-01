@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.kepala {
+  background-color: white;
+  color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px solid darkcyan;
+  font-family: "Stint Ultra Condensed", cursive;
+}
+.kepala .logo-kepala {
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: turquoise;
+  margin-left: 20px;
+}
+.kepala .menu-kepala {
+  color: black;
+  margin: 20px;
+  font-size: 2rem;
+  text-decoration: none;
+  flex-direction: column;
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .kepala .logo-kepala {
+    font-size: 6rem;
+    margin-left: 20px;
+  }
+  .kepala .menu-kepala {
+    display: inline;
+    margin: 50px;
+  }
+  .fa-bars {
+    display: none;
+  }
+}
+.fa-bars {
+  margin-right: 15px;
+}
+#main {
+  font-family: "Stint Ultra Condensed", cursive;
+}
+.subtitle {
+  text-align: center;
+  font-size: 3rem;
+  color: skyblue;
+}
+#img-div {
+  background-color: white;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+#image {
+  max-width: 100%;
+  border-radius: 10%;
+}
+#main #title {
+  text-align: center;
+  font-size: 4rem;
+  color: turquoise;
+}
+#img-caption {
+  margin: 0;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+#tribute-info {
+  width: 90%;
+  margin: 2rem auto;
+  padding: 0 20px;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  text-align: justify;
+  background-color: transparent;
+}
+#tribute-info .fbtwit {
+  background-color: transparent;
+  height: 200px;
+  width: 200px;
+  margin: 0.5rem;
+}
+.fllw1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fllw2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagef2 {
+  background-color: transparent;
+  height: 80px;
+  width: 150px;
+}
+.imagef1 {
+  background-color: transparent;
+  height: 80px;
+  width: 80px;
+}
