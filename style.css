@@ -65,6 +65,7 @@ body {
 #image {
   max-width: 100%;
   border-radius: 10%;
+  display: block;
 }
 #main #title {
   text-align: center;
@@ -80,7 +81,7 @@ body {
   width: 90%;
   margin: 2rem auto;
   padding: 0 20px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: "Courier New", Courier, monospace;
   text-align: justify;
   background-color: transparent;
@@ -111,7 +112,7 @@ body {
   height: 80px;
   width: 80px;
 }
-@media screen (min-width: 600px) {
+@media screen and (min-width: 600px) {
   .subtitle {
     font-size: 3rem;
   }
