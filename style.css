@@ -52,7 +52,7 @@ body {
 }
 .subtitle {
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: skyblue;
 }
 #img-div {
@@ -68,19 +68,19 @@ body {
 }
 #main #title {
   text-align: center;
-  font-size: 4rem;
+  font-size: 2rem;
   color: turquoise;
 }
 #img-caption {
   margin: 0;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 0.5rem;
 }
 #tribute-info {
   width: 90%;
   margin: 2rem auto;
   padding: 0 20px;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: "Courier New", Courier, monospace;
   text-align: justify;
   background-color: transparent;
@@ -110,4 +110,18 @@ body {
   background-color: transparent;
   height: 80px;
   width: 80px;
+}
+@media screen (min-width: 600px) {
+  .subtitle {
+    font-size: 3rem;
+  }
+  #main #title {
+    font-size: 4rem;
+  }
+  #img-caption {
+    font-size: 1.5rem;
+  }
+  #tribute-info {
+    font-size: 2rem;
+  }
 }
