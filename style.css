@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -42,7 +43,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 4px solid black;
-  font-family: "Stint Ultra Condensed", cursive;
+  font-family: "Lobster", cursive;
 }
 .kepala .logo-kepala {
   font-size: 2rem;
