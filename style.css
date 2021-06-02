@@ -5,22 +5,49 @@
 body {
   padding: 0;
   margin: 0;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .kepala {
-  background-color: white;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: black;
   height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 4px solid darkcyan;
+  border-bottom: 4px solid black;
   font-family: "Stint Ultra Condensed", cursive;
 }
 .kepala .logo-kepala {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
-  color: turquoise;
+  background: -webkit-linear-gradient(blue, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-left: 20px;
 }
 .kepala .menu-kepala {
@@ -31,10 +58,10 @@ body {
   flex-direction: column;
   display: none;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 767px) {
   .kepala .logo-kepala {
     font-size: 6rem;
-    margin-left: 20px;
+    margin: 20px;
   }
   .kepala .menu-kepala {
     display: inline;
@@ -53,10 +80,10 @@ body {
 .subtitle {
   text-align: center;
   font-size: 1.5rem;
-  color: skyblue;
+  color: black;
+  margin: 5px auto;
 }
 #img-div {
-  background-color: white;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -71,7 +98,14 @@ body {
 #main #title {
   text-align: center;
   font-size: 2rem;
-  color: turquoise;
+  color: #0f2027;
+  margin-bottom: 5px;
+}
+#main h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(blue, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #img-caption {
   margin: 0;
@@ -86,12 +120,17 @@ body {
   font-family: "Courier New", Courier, monospace;
   text-align: justify;
   background-color: transparent;
+  line-height: 200%;
 }
 #tribute-info .fbtwit {
   background-color: transparent;
   height: 200px;
   width: 200px;
   margin: 0.5rem;
+}
+.fllw {
+  margin-top: 10px;
+  text-align: center;
 }
 .fllw1 {
   display: flex;
@@ -105,25 +144,43 @@ body {
 }
 .imagef2 {
   background-color: transparent;
-  height: 80px;
-  width: 150px;
+  height: 40px;
+  width: 40px;
 }
 .imagef1 {
   background-color: transparent;
-  height: 80px;
-  width: 80px;
+  height: 40px;
+  width: 40px;
 }
-@media screen and (min-width: 600px) {
+hr.new4 {
+  border: 1px solid black;
+}
+@media screen and (min-width: 767px) {
   .subtitle {
     font-size: 3rem;
   }
   #main #title {
-    font-size: 4rem;
+    font-size: 5rem;
+    color: #0f2027;
   }
   #img-caption {
     font-size: 1.5rem;
   }
   #tribute-info {
     font-size: 2rem;
+  }
+  .imagef1 {
+    background-color: transparent;
+    height: 80px;
+    width: 80px;
+  }
+  .imagef2 {
+    background-color: transparent;
+    height: 80px;
+    width: 80px;
+  }
+  .fllw {
+    margin-top: 150px;
+    text-align: center;
   }
 }
