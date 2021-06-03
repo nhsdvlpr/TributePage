@@ -158,6 +158,20 @@ body {
 hr.new4 {
   border: 1px solid black;
 }
+footer {
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.videos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (min-width: 767px) {
   .subtitle {
     font-size: 3rem;
@@ -167,7 +181,7 @@ hr.new4 {
     color: #0f2027;
   }
   #img-caption {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   #tribute-info {
     font-size: 2rem;
@@ -185,5 +199,8 @@ hr.new4 {
   .fllw {
     margin-top: 150px;
     text-align: center;
+  }
+  footer {
+    font-size: 2rem;
   }
 }
