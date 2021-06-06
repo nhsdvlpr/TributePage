@@ -44,6 +44,11 @@ body {
   align-items: center;
   border-bottom: 4px solid black;
   font-family: "Lobster", cursive;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 .kepala .logo-kepala {
   font-size: 2rem;
@@ -103,6 +108,7 @@ body {
   text-align: center;
   font-size: 2rem;
   color: #0f2027;
+  margin-top: 200px;
   margin-bottom: 5px;
 }
 #main h1 {
