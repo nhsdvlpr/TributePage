@@ -210,3 +210,6 @@ footer {
     font-size: 2rem;
   }
 }
+.active {
+  right: 0;
+}
