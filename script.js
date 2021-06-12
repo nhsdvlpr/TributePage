@@ -1,6 +1,6 @@
 var navMenu = document.getElementById ('nav')
 var barsMenu = document.getElementById ('bars')
-var menuKepala = document.querySelectorAll ('menu-kepala')
+var menuKepala = document.querySelectorAll ('.menu-kepala')
 
 console.log(navMenu)
 console.log(barsMenu)
@@ -14,4 +14,4 @@ function ilangin () {
     navMenu.classList.remove('active')
 }
 
-menuKepala.forEach(link => link.addEventListener('click' ilangin))
+menuKepala.forEach(link => link.addEventListener('click', ilangin))

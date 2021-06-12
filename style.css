@@ -65,7 +65,35 @@ body {
   font-size: 2rem;
   text-decoration: none;
   flex-direction: column;
-  display: none;
+}
+nav {
+  position: fixed;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  top: -100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 100;
+}
+.fa-bars {
+  cursor: pointer;
+}
+.active {
+  top: 4.9rem;
 }
 @media screen and (min-width: 767px) {
   .kepala .logo-kepala {
@@ -77,6 +105,9 @@ body {
     margin: 50px;
   }
   .fa-bars {
+    display: none;
+  }
+  nav {
     display: none;
   }
 }
@@ -209,7 +240,4 @@ footer {
   footer {
     font-size: 2rem;
   }
-}
-.active {
-  right: 0;
 }
