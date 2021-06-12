@@ -96,6 +96,11 @@ nav {
   top: 4.9rem;
 }
 @media screen and (min-width: 767px) {
+  .kepala {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .kepala .logo-kepala {
     font-size: 5rem;
     margin: 20px;
@@ -108,7 +113,10 @@ nav {
     display: none;
   }
   nav {
-    display: none;
+    position: static;
+    display: inline;
+    background: none;
+    width: fit-content;
   }
 }
 .fa-bars {
